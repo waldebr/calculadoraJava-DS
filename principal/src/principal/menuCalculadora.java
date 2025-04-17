@@ -9,5 +9,16 @@ package principal;
  * @author dti
  */
 public class menuCalculadora {
+
+     private Calculadora0 calculadora;
+    private int opcao;
+    private ConversorNumeros1 conversor;
+    private EntradaSaidadeDados io;
     
+    public static void executarCalculadora(){
+    }
+    public static void executarMenuPrincipal(){
+    }
+    public static void executaravaliarOpcaoEscolhida(){
+    }
 }
