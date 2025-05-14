@@ -4,10 +4,29 @@
  */
 package principal;
 
+import javax.swing.JOptionPane;
+
 /**
  *
+    import javax.swing.JOptionPane;
  * @author dti
  */
 public class EntradaSaidadeDados {
-    
+
+
+
+    public String entradaDados(String mensagemEntrada) {
+        return JOptionPane.showInputDialog(null, mensagemEntrada);
+    }
+
+    public void saídaDados(String mensagemSaida) {
+        JOptionPane.showMessageDialog(null, mensagemSaida);
+    }
+
+    // corrigindo acento no método
+    public void saidaDados(String mensagemSaida) {
+        JOptionPane.showMessageDialog(null, mensagemSaida);
+    }
 }
+
+
